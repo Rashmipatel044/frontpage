@@ -40,31 +40,40 @@ height: 21px;
 .navite3{
     background-color: rgb(255, 204, 127);
     height: 50px;
-    width: 343px;
+    width: 250px;
     display: flex;
 justify-content: center;
 align-items: center;
+float: right;
+position: relative ;
 }
 .navbarside{
-    background-color: rgb(130, 173, 252);
-height: 100vh;
+    /* background-color: rgb(130, 173, 252); */
+height: 90vh;
 width: 77px;
 }
 .navbarsideitems{
 
-    background-color: beige;
-    height: 100vh;
-    width: 77px;
+    /* background-color: gray;  */
+    height: 90vh;
+    width: 50px;
     display: flex;
     flex-direction: column;
 
    
 }
-.navbarsideitli{background-color: rgb(87, 180, 168);
-    width: 78px;
-height: 104px;
+.navbarsideitli{background-color: white;
+    width: 50px;
+height: 50px;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 2px;
+margin-top: 50px;
+border-radius: 50%;
+}
+.sidebarlogo{
+
+    width: 31px;
+height: 36px;
 }
