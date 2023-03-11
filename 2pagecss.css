@@ -1,0 +1,70 @@
+
+*{margin: 0;
+padding: 0;}
+
+#navbarup{
+
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    
+}
+.navite1{
+    background-color: white;
+    height: 49px;
+    width: 268px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.navite2{
+    background-color:rgb(247, 191, 236);
+height: 49px;
+width: 674px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#searchbar{
+    width: 440px;
+height: 21px;
+}
+.sealogo{height: 21px;
+    width: 24px;
+    margin-left: 42px;
+    margin-right: 7px;
+    background-color: none;} 
+
+.navite3{
+    background-color: rgb(255, 204, 127);
+    height: 50px;
+    width: 343px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbarside{
+    background-color: rgb(130, 173, 252);
+height: 100vh;
+width: 77px;
+}
+.navbarsideitems{
+
+    background-color: beige;
+    height: 100vh;
+    width: 77px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+.navbarsideitli{background-color: rgb(87, 180, 168);
+    width: 78px;
+height: 104px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 2px;
+}
