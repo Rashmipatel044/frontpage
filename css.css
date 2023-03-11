@@ -1,0 +1,160 @@
+*{
+    color:black;
+    margin: 0;
+padding: 0;
+}
+body{
+  background-color: white;
+
+
+}
+nav{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navite1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{width: 274px;
+    height: 63px;}
+.navite2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.navite3{display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 30%; display: flex;}
+.navli{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 35px;
+    border: 1px solid white;
+    
+    margin-left: 5px; list-style: none;}
+a{ color: black; text-decoration: none;}
+
+.boxcon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.box{
+    margin: 35px;
+    height:300px;
+    width:503px;
+
+background-color: white;
+border-width:3px;
+border-style: none;
+border-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+animation-name: boxan;
+animation-duration: 2s;
+
+
+
+}
+.box:hover{
+
+   
+
+}
+#box1{
+    background-color: white;
+    height: 75px;
+    width: 604px;
+  }
+
+
+.button:hover{
+     transition: 1s;
+    heigh:10px;
+    width:150px;
+    font-size: 20px;
+}
+.in{width: 382px;
+    height: 30px;
+ color: rgb(26, 26, 26);
+display:flex;
+}
+
+    #jobbu {
+        width: 117px;
+        margin-top: 32px;
+        color: black;
+}
+
+/* @keyframes boxan{
+
+    0%{
+        right: 0px;
+    }
+    0.5%{right: 718px;}
+    
+    to{
+        right: 0px;
+    }
+} */
+
+.signform{
+    margin-top: 30px;
+}
+.log{margin-top: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.pass{
+    margin-top: 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid white;}
+
+    .inp{color: rgb(29, 28, 28);  
+        width: 264px;
+        height: 22px;
+        margin-left: 10px;
+      }
+
+    .buttons{margin-top: 20px;}
+    .button {
+        background-color: rgba(255, 255, 0, 0.838);
+        
+        width: 116px;
+        height: 29px;}
+    .inf{ display: flex; 
+        margin-top: 23px;}
+    .rem{margin-right: 231px;
+    }
+
+img{width: 42px;
+    height: 42px;
+    }
+    .active{text-decoration: none; color: black;}
